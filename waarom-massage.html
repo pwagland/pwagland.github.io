@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voor een echt goede massage of massagetherapie ben je van harte welkom - Massagepraktijk Hilversum</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="massage, Hilversum, massage praktijk, holos, massagetherapie, ontspanning, relax, burnout, overspannen, heemstede, masseur, ontspanningsmassage, klassieke massage, massagecursus" />
+    <meta name="description" content="Massagepraktijk Hilversum, voor een echt goede massage of massagetherapie ben je van harte welkom." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Parisienne&text=MasgeprktijHlvum' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <style>
+      h1 {font-family: 'Parisienne', cursive;}
+      span.compName {font-family: 'Parisienne', cursive;}
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        background:url(img/background_l.jpg);
+        background-size:100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial)p. Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#"><span class="compName">Massagepraktijk Hilversum</span></a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="waarom-massage.html">Waarom Massage</a></li>
+                <li><a href="massage-en-visie.html">Massage en Visie</a></li>
+                <li><a href="werkwijze.html">Werkwijze</a></li>
+                <li><a href="over-mij.html">Over Mij</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    <div class="container translucent">
+      <div class="row">
+        <div class="span8">
+          <div style="margin:5px">
+            <p>Massage is een manier om spanning effectief af te bouwen, het natuurlijke herstelproces van het lichaam te bevorderen, het lichaam soepel te houden en het geeft je zelfvertrouwen.Massage werkt helend op de structuur van het lichaam (spieren, bloedcirculatie, organen, huid enz) en op je energie. Het brengt je terug naar je balans en welzijn.</p>
+
+            <p>Massage is aanraken die onze biologische basisbehoefte is , net zo nodig als eten, water, kleding, warmte, liefde, veiligheid en onderdak. Aanraking invloed heeft op hoe we ons voelen, fysiek, mentaal en emotioneel.</p>
+
+            <p>Wat kun je door een massage bereiken:</p>
+
+            <ul>
+              <li>meer rust en ontspanning</li>
+              <li>betere bloed- en lymfecirculatie en verbeter in je stofwisseling</li>
+              <li>meer energie hebben</li>
+              <li>meer gezond en vitaal voelen</li>
+              <li>in contact komen met jezelf en je lichaam</li>
+              <li>leren fysieke en mentale klachten sneller opmerken</li>
+              <li>minder last van stijve of pijnlijke spieren</li>
+              <li>meer balans in je houding, zenuwstelsel en hormoonhuishouding</li>
+              <li>beter slapen</li>
+              <li>meer aarden en steviger op de grond staan</li>
+              <li>helpen te herstellen van overbelasting of burn-out</li>
+              <li>preventieve zorg voor lichaam en geest</li>
+              <li>even uit de drukte van het dagelijks bestaan stappen</li>
+              <li>je leven beter afstemmen op je eigen kompas</li>
+            </ul>
+          </div>
+        </div> <!-- /span8 -->
+
+        <div class="span4 hidden-phone" style="box-sizing:border-box;  -moz-box-sizing:border-box;  -webkit-box-sizing:border-box; border-left-style: solid; border-left-color: #ccc;">
+          <div style="margin:5px">
+            <address id="non-phone">
+              Sumatralaan 10<br/>
+              1217 GR  Hilversum</br>
+              tel: 06 1512 2994<br/>
+              <a href="mailto:info@massagepraktijk-hilversum.nl">info@massagepraktijk-hilversum.nl</a>
+            </address>
+          </div>
+        </div> <!-- /span4 -->
+
+        <div class="span4 visible-phone" style="border-top-style: solid; border-top-color: #ccc">
+          <div style="margin:5px">
+            <address>
+              Sumatralaan 10<br/>
+              1217 GR  Hilversum</br>
+              tel: 06 1512 2994<br/>
+              <a href="mailto:info@massagepraktijk-hilversum.nl">info@massagepraktijk-hilversum.nl</a>
+            </address>
+          </div>
+        </div> <!-- /span4 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      function moveAddr() {
+        var a = $("address#non-phone");
+        a.height(Math.min($("div.span8").height(),$(window).height()-a.position().top));
+      }
+      moveAddr();
+      $(window).resize(moveAddr);
+    </script>
+  </body>
+</html>

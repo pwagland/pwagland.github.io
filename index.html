@@ -1,17 +1,79 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <title>Voor een echt goede massage of massagetherapie ben je van harte welkom - Massagepraktijk Hilversum</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="massage, Hilversum, massage praktijk, holos, massagetherapie, ontspanning, relax, burnout, overspannen, heemstede, masseur, ontspanningsmassage, klassieke massage, massagecursus" />
     <meta name="description" content="Massagepraktijk Hilversum, voor een echt goede massage of massagetherapie ben je van harte welkom." />
-    <title>Voor een echt goede massage of massagetherapie ben je van harte welkom - Massagepraktijk Hilversum</title>
-    <link href='http://fonts.googleapis.com/css?family=Parisienne&text=MasgeprktijHlvum' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Parisienne&text=MassagepraktijkHilversumStilteisdeslaapdiedewijsheidvoedtFrancisBacon' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
     <style>
       h1 {font-family: 'Parisienne', cursive;}
-      span.compName {font-family: 'Parisienne', cursive;}
+      .compName {font-family: 'Parisienne', cursive;}
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        background:url(img/background_l.jpg);
+        background-size:cover;
+      }
     </style>
   </head>
   <body>
-    <h1>Massagepraktijk Hilversum</h1>
-    <p>Gun je zelf een moment van rust en ontspanning bij <span class="compName">Massagepraktijk Hilversum!</span></p>
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial)p. Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#"><span class="compName">Massagepraktijk Hilversum</span></a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="waarom-massage.html">Waarom Massage</a></li>
+                <li><a href="massage-en-visie.html">Massage en Visie</a></li>
+                <li><a href="werkwijze.html">Werkwijze</a></li>
+                <li><a href="over-mij.html">Over Mij</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    <div class="container">
+      <div class="row">
+        <div class="span6 offset3">
+          <blockquote class="large compName -translucent">
+            <p align="center">Stilte is de slaap die de wijsheid voedt</p>
+            <p align="right"><small>Francis Bacon</small></p>
+          </blockquote>
+        </div> <!-- /span4 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      function moveQuote() {
+        var q = $("blockquote");
+        var offset = q.offset();
+        q.offset({top: $(window).height()-200, left:offset.left});
+      }
+      moveQuote();
+      $(window).resize(moveQuote);
+    </script>
   </body>
 </html>
