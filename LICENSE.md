@@ -9,3 +9,6 @@ The following files were taken from the Bootstrap project: http://twitter.github
  * img/glyphicons-halflings.png
  * js/bootstrap.js
  * js/bootstrap.min.js
+
+The following image was purchased from DreamTimes, and may not be used by any entity other than Massagepraktijk Hilversum without first contacting www.dreamtimes.com.
+ * img/background_l.jpg <http://www.dreamstime.com/stock-photography-spa-setting-image15658082>
