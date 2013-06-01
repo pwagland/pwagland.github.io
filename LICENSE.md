@@ -1,0 +1,1 @@
+Unless otherwise stipulated the contents of this repository are Copyright Massagepraktijk Hilversum, 2013. You may not reuse anything within this repository without the permission of the copyright holder.
