@@ -1,6 +1,5 @@
     <link href='http://fonts.googleapis.com/css?family=Parisienne&text=MasgeprktijHlvumSdpwhoFncB' rel='stylesheet' type='text/css'>
     <style>
-      h1 {font-family: 'Parisienne', cursive;}
       .compName {font-family: 'Parisienne', cursive;}
       @media (max-width: 767px) {
         body {
