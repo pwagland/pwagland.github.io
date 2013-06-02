@@ -36,7 +36,7 @@ navorder: 1
       function moveQuote() {
         var q = $("blockquote");
         var offset = q.offset();
-        q.offset({top: $(window).height()-200, left:offset.left});
+        q.offset({top: Math.max($(window).height()-200,100), left:offset.left});
       }
       moveQuote();
       $(window).resize(moveQuote);
