@@ -1,0 +1,8 @@
+    <script>
+      function moveAddr() {
+        var a = $("address#non-phone");
+        a.height(Math.min($("div.span8").height(),$(window).height()-a.position().top));
+      }
+      moveAddr();
+      $(window).resize(moveAddr);
+    </script>
