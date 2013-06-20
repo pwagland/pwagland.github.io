@@ -3,14 +3,14 @@
       .compName {font-family: 'Parisienne', cursive;}
       @media (max-width: 767px) {
         body {
-          background:url(img/background_s.jpg);
-          background-size:100%;
+          background: url(img/background_s.jpg);
+          background-size: 100%;
         }
       }
       @media (min-width: 768px) {
         body {
-          background:url(img/background_l.jpg);
-          background-size:cover;
+          background: url(img/background_l.jpg);
+          background-size: cover;
         }
       }
     </style>
