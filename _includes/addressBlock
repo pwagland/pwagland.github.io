@@ -1,4 +1,4 @@
-        <div class="span4 hidden-phone" style="box-sizing:border-box;  -moz-box-sizing:border-box;  -webkit-box-sizing:border-box; border-left-style: solid; border-left-color: #ccc;">
+        <div class="span4 hidden-phone" style="box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-left-style: solid; border-left-color: #ccc;">
           <div style="margin:10px">
             <address id="non-phone">
               Massagepraktijk Hilversum<br/>
