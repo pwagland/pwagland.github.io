@@ -1442,6 +1442,10 @@ address {
   vertical-align: bottom;
 }
 
+div.indentedText {
+  margin-left: 30px;
+}
+
 code,
 pre {
   padding: 0 3px 2px;
