@@ -1472,6 +1472,13 @@ div.addressBarWrapper {
   padding-bottom: 20px;
 }
 
+@media (max-width: 767px) {
+  div.indentedText {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 code,
 pre {
   padding: 0 3px 2px;
