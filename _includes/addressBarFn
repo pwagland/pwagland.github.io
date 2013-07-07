@@ -1,0 +1,10 @@
+<!--    <script>
+      function moveAddr() {
+        var a = $("addressBarWrapper");
+        a.height(Math.min($("main").height(),$(window).height()-a.position().top+$(window).scrollTop()));
+      }
+      moveAddr();
+      $(window).resize(moveAddr);
+      $(window).scroll(moveAddr);
+    </script>
+-->

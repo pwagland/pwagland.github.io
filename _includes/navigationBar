@@ -1,3 +1,17 @@
+    <hr class="headerLine">
+    <div class="container bodyText">
+      <div class="row">
+        <div class="span3">
+          <img src="img/logo_MPH.jpg" alt="Massagepraktijk Hilversum" width=180>
+        </div>
+        <div class="span9">
+          <div class="contactBlock">
+            <a href="tel:+31 6 1512 2994">Tel: 06&nbsp;1512&nbsp;2994</a>
+            | <a href="mailto:info@massagepraktijk-hilversum.nl">info@massagepraktijk-hilversum.nl</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
@@ -11,7 +25,6 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="/"><span class="compName">Massagepraktijk Hilversum</span></a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
@@ -28,3 +41,10 @@
         </div><!-- /.navbar -->
       </div> <!-- /.container -->
     </div><!-- /.navbar-wrapper -->
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <img src="img/header_towel.jpg" alt="">
+        </div>
+      </div>
+    </div>

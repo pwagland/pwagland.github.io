@@ -1,16 +1,9 @@
     <link href='http://fonts.googleapis.com/css?family=Parisienne&amp;text=MasgeprktijHlvumSdpwhoFncB' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <style type='text/css'>
       .compName {font-family: 'Parisienne', cursive;}
-      @media (max-width: 767px) {
-        body {
-          background: url(img/background_s.jpg);
-          background-size: 100%;
-        }
-      }
-      @media (min-width: 768px) {
-        body {
-          background: url(img/background_l.jpg);
-          background-size: cover;
-        }
+      body {
+        background: url(img/background_01.jpg) no-repeat;
+        background-size: 100%;
       }
     </style>
