@@ -44,7 +44,9 @@
     <div class="container">
       <div class="row">
         <div class="span12">
-          <img src="img/header_9DS_1381.jpg" alt="">
+          <img srcset="img/header_9DS_1381.jpg 950w,
+                       img/header_9DS_1381_small.jpg 475w"
+               src="img/header_9DS_1381.jpg" alt="">
         </div>
       </div>
     </div>

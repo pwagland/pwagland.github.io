@@ -233,13 +233,13 @@ body {
 }
 
 a {
-  color: #888988;
+  color: #5a2970;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #626362;
+  color: #9d48c4;
   text-decoration: underline;
 }
 
@@ -6842,5 +6842,12 @@ input[type="submit"].btn.btn-mini {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
+  }
+}
+
+@media (max-width: 767px) {
+  div.indentedText {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
