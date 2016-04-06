@@ -1476,11 +1476,11 @@ div.addressBar {
   background: #725A7C;
 }
 
-div.contactBlock a {
+div.addressBar a {
   color: #ddd;
 }
 
-div.contactBlock a:hover, a:active {
+div.addressBar a:hover, a:active {
   color: #eee;
 }
 
