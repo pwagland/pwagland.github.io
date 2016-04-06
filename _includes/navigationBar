@@ -2,7 +2,12 @@
     <div class="container bodyText">
       <div class="row">
         <div class="span3">
-          <img src="img/logo_MPH.jpg" alt="Massagepraktijk Hilversum" width=180>
+          <picture>
+          	<source
+          		media="(max-width: 767px)"
+          		srcset="img/logo_MPH.jpg 150w" />
+            <img src="img/logo_MPH.jpg" alt="Massagepraktijk Hilversum" width=180>
+          </picture>
         </div>
         <div class="span9">
           <div class="contactBlock">
