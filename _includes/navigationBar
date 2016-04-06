@@ -3,8 +3,9 @@
       <div class="row">
         <div class="span3">
           <picture>
-          	<source	media="(max-width: 767px)" srcset="img/logo_MPH_small.jpg 150w" />
-            <img src="img/logo_MPH.jpg" alt="Massagepraktijk Hilversum" width=180>
+            <source media="(max-width: 767px)" srcset="img/logo_MPH_small.jpg 75w, img/logo_MPH_smallx2.jpg x2" />
+            <source                            srcset="img/logo_MPH.jpg 166w, img/logo_MPHx2.jpg x2" />
+            <img src="img/logo_MPH.jpg" alt="Massagepraktijk Hilversum">
           </picture>
         </div>
         <div class="span9">
