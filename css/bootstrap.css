@@ -5328,7 +5328,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inner {
   min-height: 40px;
   padding-right: 20px;
-  padding-left: 150px;
+  padding-left: 20px;
   font-size: 20px;
   background-color: #3FA453;
   -webkit-border-radius: 4px;
