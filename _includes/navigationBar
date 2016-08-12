@@ -4,14 +4,14 @@
         <div class="span3">
           <picture>
             <source media="(max-width: 767px)" srcset="img/logo_MPH_small.jpg 75w, img/logo_MPH_smallx2.jpg x2" />
-            <source                            srcset="img/logo_MPH.jpg 166w, img/logo_MPHx2.jpg x2" />
-            <img src="img/logo_MPH.jpg" alt="Massagepraktijk Hilversum">
+            <source                            srcset="img/logo_MPH.png 552w, img/logo_MPHx2.png 1128w" />
+            <img src="img/logo_MPH.png" alt="Massagepraktijk Hilversum">
           </picture>
         </div>
         <div class="span9">
           <div class="contactBlock">
             <a href="tel:+31 6 1512 2994">Tel: 06&nbsp;1512&nbsp;2994</a>
-            | <a href="mailto:info@massagepraktijk-hilversum.nl">info@massagepraktijk-hilversum.nl</a>
+            | <a href="mailto:info@massagetherapie-hilversum.nl">info@massagepraktijk-hilversum.nl</a>
           </div>
         </div>
       </div>
@@ -47,12 +47,3 @@
         </div><!-- /.navbar -->
       </div> <!-- /.container -->
     </div><!-- /.navbar-wrapper -->
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <img srcset="img/header_9DS_1381.jpg 950w,
-                       img/header_9DS_1381_small.jpg 475w"
-               src="img/header_9DS_1381.jpg" alt="">
-        </div>
-      </div>
-    </div>
