@@ -84,6 +84,66 @@ a:active {
   outline: 0;
 }
 
+
+div.vergoedBadge {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 375px) {
+  div.vergoedBadge {
+    height: 180px;
+    width: 40%;
+    margin: -90px 100% -90px 60%;
+    max-width: 40%;
+    max-height: 40%;
+  }
+}
+@media (min-width: 376px) and (max-width: 611px) {
+  div.vergoedBadge {
+    height: 180px;
+    width: 30%;
+    margin: -110px 100% -70px 70%;
+    max-width: 30%;
+    max-height: 30%;
+  }
+}
+@media (min-width: 612px) and (max-width: 767px) {
+  div.vergoedBadge {
+    height: 180px;
+    width: 30%;
+    margin: -110px 100% -70px 70%;
+    max-width: 30%;
+    max-height: 30%;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  div.vergoedBadge {
+    height: 190px;
+    width: 190px;
+    margin: -95px -160px -95px -30px;
+  }
+}
+/*! Normally we only care about 980+, but the circle clips between 980 and 1000 */
+@media (min-width: 980px) and (max-width: 1019px) {
+  div.vergoedBadge {
+    height: 190px;
+    width: 190px;
+    margin: -95px -160px -95px -30px;
+  }
+}
+@media (min-width: 1020px) {
+  div.vergoedBadge {
+    height: 200px;
+    width: 200px;
+    margin: -100px -160px -100px -40px;
+  }
+}
+@media print {
+  div.vergoedBadge {
+    display: none;
+  }
+}
+
 sub,
 sup {
   position: relative;
