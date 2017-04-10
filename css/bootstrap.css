@@ -6911,3 +6911,9 @@ input[type="submit"].btn.btn-mini {
     margin-left: 0;
   }
 }
+
+p.post--date {
+  font-size: 70%;
+  font-style: italic;
+  text-align: right;
+}
