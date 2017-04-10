@@ -30,7 +30,7 @@ navorder: 6
               <a href="{{ post.url }}">
                 <h2>{{ post.title }}</h2>
               </a>
-              <p>{{ post.introduction }}</p>
+              {{ post.excerpt }}
               <p><a href="{{ post.url }}">Lees meer…</a></p>
             {% endfor %}
             {% include maillist teaser="Wil je meer horen als dit? "%}
