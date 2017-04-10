@@ -1,4 +1,4 @@
-Unless otherwise stipulated the contents of this repository are Copyright Massagetherapie Hilversum, 2013. You may not reuse anything within this repository without the permission of the copyright holder.
+Unless otherwise stipulated the contents of this repository are Copyright Massagetherapie Hilversum, 2017. You may not reuse anything within this repository without the permission of the copyright holder.
 
 The following files were taken from the Bootstrap project: http://twitter.github.io/bootstrap/index.html
  * css/bootstrap-responsive.css
