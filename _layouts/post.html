@@ -8,9 +8,26 @@ layout: default
 
             <section class="post--content">
               <h1>{{ page.title }}</h1>
-              <p>{{ page.introduction }}</p>
               {{ content }}
-              <p class="post--date">Oorspronkelijk geschreven: {{ page.date | date_to_string }}</p>
+              <p class="post--date">Oorspronkelijk geschreven:
+                {% assign m = page.date | date: "%-m" %}
+                {{ page.date | date: "%-d" }}
+                {% case m %}
+                  {% when '1' %}januari
+                  {% when '2' %}februari
+                  {% when '3' %}maart
+                  {% when '4' %}april
+                  {% when '5' %}mei
+                  {% when '6' %}juni
+                  {% when '7' %}juli
+                  {% when '8' %}augustus
+                  {% when '9' %}september
+                  {% when '10' %}oktober
+                  {% when '11' %}november
+                  {% when '12' %}december
+                {% endcase %}
+                {{ page.date | date: "%Y" }}
+              </p>
             </section>
             {% include maillist teaser="Wil je meer horen als dit? "%}
           </div> <!-- /indentedText -->
