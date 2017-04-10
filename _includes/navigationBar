@@ -35,7 +35,7 @@
                   {% for p in site.html_pages %}
                     {% if p.navorder == navorder %}
                       {% if p.showinnav == true %}
-                        <li{% if p.url == page.url %} class="active"{% endif %}><a href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a></li>
+                        <li{% if p.url == page.url or p.url == page.active %} class="active"{% endif %}><a href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a></li>
                       {% endif %}
                     {% endif %}
                   {% endfor %}
