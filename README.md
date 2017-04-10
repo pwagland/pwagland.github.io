@@ -1,6 +1,6 @@
 pwagland.github.io
 ==================
 
-Website for http://massagepraktijk-hilversum.nl/
+Website for http://massagetherapie-hilversum.nl/
 
 All rights reserved.

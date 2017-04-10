@@ -5,7 +5,7 @@
           <picture>
 <!--        <source media="(max-width: 767px)" srcset="img/logo_MPH_small.jpg 75w, img/logo_MPH_smallx2.jpg x2" /> -->
             <source                            srcset="img/logo_MPH.png 552w, img/logo_MPHx2.png 1128w" />
-            <img src="img/logo_MPH.png" alt="Massagepraktijk Hilversum">
+            <img src="/img/logo_MPH.png" alt="Massagetherapie Hilversum">
           </picture>
         </div>
         <div class="span9">
