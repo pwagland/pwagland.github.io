@@ -3,7 +3,7 @@
       <div class="row">
         <div class="span3">
           <picture>
-            <source                            srcset="/img/logo_MPH.png 552w, /img/logo_MPHx2.png 1128w" />
+            <source srcset="/img/logo_MPH.png 552w, /img/logo_MPHx2.png 1128w" />
             <img src="/img/logo_MPH.png" alt="Massagetherapie Hilversum">
           </picture>
         </div>
