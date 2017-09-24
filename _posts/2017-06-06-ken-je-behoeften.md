@@ -54,7 +54,7 @@ Je doel in het bereiken van groei en balans: mijn doel is om "wortels" te hebben
 ## Significantie
 Je overtuiging: ik ervaar geluk als anderen mij belangrijk vinden en ik respect afdwing. Ik heb er behoefte aan om me uniek en speciaal te voelen. Mensen zullen tegen me op kijken.
 Wat je uit het oog dreigt te verliezen: dat liefde soms belangrijk is dan respect. Het is moeilijk om houden van iemand die zich altijd wil belangrijk voelen.
-Je doel in bereiken van groei en balans: mijn doel is om geliefd te worden om wie ik ben en niet van wege mijn prestaties. Ik zal leren om liefde meer te waarderen dan respect en bewondering van anderen . Ik zal leren om nederig te zijn en meer geduld te hebben. Ik zal opmerken wanneer ik mij teveel op leg en ik zal leren meer van mezelf te houden.
+Je doel in bereiken van groei en balans: mijn doel is om geliefd te worden om wie ik ben en niet vanwege mijn prestaties. Ik zal leren om liefde meer te waarderen dan respect en bewondering van anderen. Ik zal leren om nederig te zijn en meer geduld te hebben. Ik zal opmerken wanneer ik mij teveel op leg en ik zal leren meer van mezelf te houden.
 
 ## Verbinding/liefde
 Je overtuiging: om me waardevol te voelen moet ik beminnen en bemind worden. Het is belangrijk voor me om goede waardevolle relaties te hebben met anderen. Als ik niet van iemand kan houden en er niemand van mij houdt, ben ik waardeloos. Ik heb moeite met "nee" zeggen omdat ik verwacht liefde terug te krijgen. Ik ben ik vaak teleurgesteld.
