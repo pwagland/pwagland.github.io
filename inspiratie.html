@@ -25,16 +25,28 @@ navorder: 6
             </p>
 
             <h1>Inspiratie blog</h1>
+          </div>
+        </div>
 
+        <div class="indentedText">
             {% for post in site.posts %}
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+            {% if thecycle == 'odd' %}
+              <div class="row">
+            {% endif %}
+            <div class="span4">
               <a href="{{ post.url }}">
                 <h2>{{ post.title }}</h2>
               </a>
+              <img src="{{post.img}}"/>
               {{ post.excerpt }}
               <p><a href="{{ post.url }}">Lees meer…</a></p>
+              {% if thecycle == 'even' %}
+                </div>
+              {% endif %}
+            </div>
             {% endfor %}
             {% include maillist teaser="Wil je meer horen als dit? "%}
           </div>
-        </div> <!-- /span12 -->
       </div> <!-- /row -->
     </div> <!-- /container -->

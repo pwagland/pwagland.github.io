@@ -2,6 +2,7 @@
 layout: post
 active: /inspiratie.html
 title: Ken je behoeften!
+img: img/IMG_0057.JPG
 ---
 Veel mensen ontbreekt het aan inzicht van hun behoeften. Vaak voel je wel wat je wilt of niet wilt maar niet altijd sta je er bij stil waarom en welke behoefte of drijfveer erachter zit. Het is wel van belang om dit inzicht te hebben. Het kan je helpen in je zoektocht naar balans en groei.
 
