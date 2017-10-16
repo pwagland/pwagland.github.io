@@ -2,7 +2,7 @@
 layout: post
 active: /inspiratie.html
 title: Ik wil van mijn pijn af!
-img: img/IMG_0058.JPG
+img: img/img_0058.jpg
 ---
 Veel van mijn cliënten die met pijnklachten komen zijn op zoek naar een oplossing.
 Heel begrijpelijk want pijn is naar en wil je liever niet voelen.

@@ -2,7 +2,7 @@
 layout: post
 active: /inspiratie.html
 title: Wat kan jou helpen als je piekert?
-img: img/IMG_1756.JPG
+img: img/img_1756.jpg
 ---
 Heb je het weleens meegemaakt? Piekergedachten die je helemaal leegzuigen? Die maken dat je je steeds vermoeider gaat voelen? Maalgedachten die maken dat je in het holst van de nacht wakker wordt en dat 1 zinnetje of vraag zich maar blijft herhalen?
 
