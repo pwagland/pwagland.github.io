@@ -6,7 +6,7 @@ img: img/IMG_0057.JPG
 ---
 Veel mensen ontbreekt het aan inzicht van hun behoeften. Vaak voel je wel wat je wilt of niet wilt maar niet altijd sta je er bij stil waarom en welke behoefte of drijfveer erachter zit. Het is wel van belang om dit inzicht te hebben. Het kan je helpen in je zoektocht naar balans en groei.
 
-Volgens  Cloe Madanes en Tony Robbins, kunnen we menselijke behoeftes in 6 categorieën indelen:
+Volgens Cloe Madanes en Tony Robbins, kunnen we menselijke behoeftes in 6 categorieën indelen:
 
 1. **Zekerheid**- veiligheid, orde, controle, verminderen van pijn en angst
 1. **Variatie**- onzekerheid, chaos, avontuur, genoegen, vrijheid
@@ -14,7 +14,7 @@ Volgens  Cloe Madanes en Tony Robbins, kunnen we menselijke behoeftes in 6 categ
    Er is een tegenwerkende relatie tussen zekerheid en variatie. Hoe meer zekerheid we hebben, hoe minder variatie.
 
 1. **Significantie**- erkenning, je belangrijk en speciaal voelen, ego, waardering,
-1. **Verbinding**- liefde, voelen dat er van je gehouden wordt en dat je geacccepteerd wordt.
+1. **Verbinding**- liefde, voelen dat er van je gehouden wordt en dat je geaccepteerd wordt.
 
    Er is ook tegenwerkende relatie tussen significantie en liefde/verbinding. Hoe individualistischer  we zijn, des te minder ruimte er is voor liefde en verbinding.
 
@@ -43,7 +43,7 @@ Ontdek maar in welke categorie je je herkent
 ## Zekerheid
 Je overtuiging: ik heb het nodig om me zeker, veilig en comfortabel te voelen en ik moet zekerheid creëren dat ik in de toekomst veilig en comfortabel ben. Vermindering van pijn is belangrijk voor me. Ik kan niet gelukkig zijn wanneer ik me in onzekere omstandigheden bevind. Ik beperk zo veel mogelijk risico’s en ben voorzichtig in het plannen van  mijn toekomst.
 Wat je uit het oog dreigt te verliezen:
-De toekomst is onvoorspelbaar. We hebben alleen "het nu". Zonder risico is er geen winst. Het is goedmogelijk om onzeker over toekomst te voelen en gelukkig te zijn.
+De toekomst is onvoorspelbaar. We hebben alleen "het nu". Zonder risico is er geen winst. Het is goed mogelijk om onzeker over toekomst te voelen en gelukkig te zijn.
 Je doel in het bereiken van groei en balans:
 Mijn doel is om in het nu te leven, in het moment te zijn en er niet mee bezig te zijn wat later kan gebeuren of wat de toekomst zal brengen. Ik neem risico’s en accepteer dat onzekerheid en onveiligheid een deel van mijn leven zijn.
 
