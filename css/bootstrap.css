@@ -84,6 +84,25 @@ a:active {
   outline: 0;
 }
 
+h2.postTitle {
+  height: 96px;
+}
+
+div.postExcerpt {
+  position: relative;
+  height: 192px; /* exactly three lines */
+  overflow: hidden;
+}
+div.postExcerpt:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 18px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
 
 div.vergoedBadge {
   position: relative;
