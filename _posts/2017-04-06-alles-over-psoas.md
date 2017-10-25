@@ -2,7 +2,7 @@
 layout: post
 title: Hoe gaat het met je psoas?
 active: /inspiratie.html
-img: img/loop-van-psoas.jpg
+img: img/loop-van-psoas-teaser.jpg
 ---
 
 Heb je af en toe een last van lage rugpijn, ischias, kniepijn, menstruatiepijn of spijsverteringsproblemen? Dan kan het zijn dat je **psoas** spier gespannen en verkort is. Een chronisch aangespannen psoas leidt bovendien tot kortademigheid en een hoge borstademhaling vanwege de connectie met het middenrif.
