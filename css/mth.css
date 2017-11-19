@@ -112,9 +112,17 @@ div.vergoedBadge {
   }
 }
 
-div.indentedText {
-  margin-right: 90px;
-  margin-left: 160px;
+@media (max-width: 767px) {
+  div.indentedText {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 768px) {
+  div.indentedText {
+    margin-right: 90px;
+    margin-left: 160px;
+  }
 }
 
 .container:before,
@@ -180,7 +188,6 @@ h2.postTitle:after {
   height: 2.1rem;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
 }
-
 
 div.postExcerpt {
   position: relative;
