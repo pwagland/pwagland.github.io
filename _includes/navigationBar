@@ -1,13 +1,13 @@
     <hr class="headerLine">
-    <div class="container bodyText">
-      <div class="row">
-        <div class="span3">
-          <picture>
-            <source srcset="/img/logo_MPH.png 552w, /img/logo_MPHx2.png 1128w" />
-            <img src="/img/logo_MPH.png" alt="Massagetherapie Hilversum">
-          </picture>
+    <div class="container">
+      <div class="row bodyText">
+        <div class="col-3">
+          <img srcset="/img/logo_MPH.png 1x, /img/logo_MPHx2.png 2x"
+               src="/img/logo_MPH.png"
+               alt="Massagetherapie Hilversum"
+               class="img-fluid">
         </div>
-        <div class="span9">
+        <div class="col-9">
           <div class="contactBlock">
             <a href="tel:+31 6 1512 2994">Tel: 06&nbsp;1512&nbsp;2994</a>
             | <a href="mailto:info@massagetherapie-hilversum.nl">info@massagetherapie-hilversum.nl</a>
@@ -17,32 +17,24 @@
     </div>
     <!-- NAVBAR
     ================================================== -->
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-        <div class="navbar">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial)p. Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                {% for navorder in (1..10) %}
-                  {% for p in site.html_pages %}
-                    {% if p.navorder == navorder %}
-                      {% if p.showinnav == true %}
-                        <li{% if p.url == page.url or p.url == page.active %} class="active"{% endif %}><a href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a></li>
-                      {% endif %}
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
+    <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-md navbar-dark" style="background-color:#3FA453;">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            {% for navorder in (1..10) %}
+              {% for p in site.html_pages %}
+                {% if p.navorder == navorder %}
+                  {% if p.showinnav == true %}
+                    <li class="nav-item{% if p.url == page.url or p.url == page.active %} active{% endif %}"><a class="nav-link" href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a></li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </div>

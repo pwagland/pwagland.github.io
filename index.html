@@ -5,9 +5,9 @@ navorder: 2
 ---
     <div class="container">
       <div class="row">
-        <div class="span12">
-          <img srcset="img/header_9DS_1381x3.jpg 1425w, img/header_9DS_1381x2.jpg 950w, img/header_9DS_1381.jpg 475w"
-               src="img/header_9DS_1381.jpg" alt="">
+        <div>
+          <img srcset="img/header_9DS_1381.jpg 475w, img/header_9DS_1381x2.jpg 950w, img/header_9DS_1381x3.jpg 1425w"
+               src="img/header_9DS_1381.jpg" alt="Image of back being massaged" class="img-fluid">
           <div class="vergoedBadge" alt="Vergoed vanuit de aanvullende verzekering">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 256 256" height="100%" width="100%">
               <defs>
@@ -33,7 +33,7 @@ navorder: 2
       <div class="row">
         <div class="indentedText">
           <p/>
-          <img style="float:right;" class="img-circle img-responsive" width="40%" src="img/ela_face.jpg" alt="">
+          <img class="float-right rounded-circle img-responsive" width="40%" src="img/ela_face.jpg" alt="">
           <p>Ik werk als massagetherapeut vanuit de holistische visie en kijk naar het lichaam als een trouw en eerlijk kompas. Je lichaam geeft je iedere dag signalen hoe het met je gaat. Massagetherapie is een tijd van stilstaan bij je lichaam, van opmerken en beleven van de signalen die het lichaam uitzendt. Je kan ervaren dat een klacht of symptoom niet op zichzelf staat, maar te maken heeft met bepaalde situaties, je gedachten of patronen in je leven. Vanuit deze ontstane inzichten helpt massagetherapie bij het integratieproces van alles wat zich in je leven afspeelt.</p>
 
           <h1>Wanneer massagetherapie?</h1>
@@ -61,10 +61,10 @@ navorder: 2
             {% if thecycle == 'odd' %}
               <div class="row">
             {% endif %}
-                <div class="span4">
+                <div class="col-6">
                   <a href="{{ post.url }}">
                     <h2 class="postTitle">{{ post.title }}</h2>
-                  <img src="{{post.img}}"/>
+                  <img class="w-100" src="{{post.img}}"/>
                   <p>Lees meer…</a></p>
               </div>
             {% if thecycle == 'even' or forloop.last %}
@@ -74,22 +74,36 @@ navorder: 2
         </div>
       </div>
       <div class="row">
-        <div class="indentedText text-center">
+        <div class="indentedText text-center w-100">
           <h4><a href="inspiratie.html">Lees meer inspiraties…</a></h4>
         </div>
       </div>
       <div class="row">
-        <div class="indentedText text-center">
+        <p>&nbsp;</p>
+      </div>
+      <div class="row">
+        <div class="indentedText text-center w-100">
           <h4><a href="inspiratie.html#mailList">Spreken mijn onderwerpen je aan? Abonneer je dan op mijn nieuwsbrief.</a></h4>
         </div>
       </div>
       <div class="row">
-        <div class="indentedText text-center">
+        <div class="indentedText text-center w-100">
           <a class="btn btn-info" style="font-size:24px" href="inspiratie.html#mailList">Abonneer nu</a>
         </div>
       </div>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
+      <div class="row">
+        <p>&nbsp;</p>
+      </div>
+      <div class="row">
+        <p>&nbsp;</p>
+      </div>
+      <!-- <div class="row">
+        <div class="indentedText">
+          In al die jaren heb ik me vaak laten masseren, maar niet een doet het zoals Ela! Een kundige, warme vrouw met een pure passie voor haar vak.
+    Zodra ze haar handen op je rug legt en contact maakt, voel je je direct zachter worden, je komt als het ware thuis bij jezelf. Ze weet en voelt precies aan welke druk op welke punten nodig is. Sinds ik bij haar kom wil ik niet anders meer.
+        </div>
+      </div> -->
+      <div class="row">
+        <p>&nbsp;</p>
+      </div>
     </div> <!-- /container -->

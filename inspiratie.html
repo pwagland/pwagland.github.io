@@ -5,47 +5,63 @@ navorder: 6
 ---
     <div class="container">
       <div class="row">
-        <div class="span12">
+        <div>
           <img srcset="img/header_5x2.jpg 950w, img/header_5x1.jpg 475w"
-               src="img/header_5x1.jpg" alt="">
+               src="img/header_5x1.jpg" alt="" class="img-fluid">
         </div>
       </div>
     </div>
 
     <div class="container bodyText">
       <div class="row">
-        <div class="indentedText">
-          <h1>Samenwerking</h1>
-          <p>
-            <ul>
-              <li><a href="http://www.praktijkmichaelris.nl" target="_blank">Praktijk Michael Ris</a></li>
-              <li><a href="http://www.hildehuisman.nl" target="_blank">Hilde Huisman &amp; Co</a></li>
-            </ul>
-          </p>
+        <div class="col-12">
+          <div class="indentedText">
+            <h1>Samenwerking</h1>
+            <p>
+              <ul>
+                <li><a href="http://www.praktijkmichaelris.nl" target="_blank">Praktijk Michael Ris</a></li>
+                <li><a href="http://www.hildehuisman.nl" target="_blank">Hilde Huisman &amp; Co</a></li>
+              </ul>
+            </p>
+          </div>
         </div>
+      </div>
 
-        <div class="indentedText">
-          <h1>Inspiratie blog</h1>
-          {% for post in site.posts %}
-            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-            {% if thecycle == 'odd' %}
-              <div class="row">
-            {% endif %}
-                <div class="span4">
-                  <a href="{{ post.url }}">
-                    <h2 class="postTitle">{{ post.title }}</h2>
-                  <img src="{{post.img}}"/>
-                  <div class="postExcerpt">
-                    {{ post.excerpt | strip_html }}
-                  </div>
-                  <p>Lees meer…</a></p>
-              </div>
-            {% if thecycle == 'even' or forloop.last %}
-              </div>
-            {% endif %}
-          {% endfor %}
-          <a name="mailList"></a>
-          {% include maillist teaser="Spreken mijn onderwerpen je aan?"%}
+      <div class="container bodyText">
+        <div class="row">
+          <p>&nbsp;</p>
+        </div>
+        <div class="row">
+          <div class="indentedText">
+            <h1>Inspiratie blog</h1>
+          </div>
+        </div>
+        <div class="row">
+          <p>&nbsp;</p>
+        </div>
+        <div class="row">
+          <div class="indentedText">
+            {% for post in site.posts %}
+              {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+              {% if thecycle == 'odd' %}
+                <div class="row">
+              {% endif %}
+                  <div class="col-6">
+                    <a href="{{ post.url }}">
+                      <h2 class="postTitle">{{ post.title }}</h2>
+                    <img class="w-100" src="{{post.img}}"/>
+                    <div class="postExcerpt">
+                      {{ post.excerpt | strip_html }}
+                    </div>
+                    <p>Lees meer…</a></p>
+                </div>
+              {% if thecycle == 'even' or forloop.last %}
+                </div>
+              {% endif %}
+            {% endfor %}
+            <a name="mailList"></a>
+            {% include maillist teaser="Spreken mijn onderwerpen je aan?"%}
+          </div>
         </div>
       </div> <!-- /row -->
     </div> <!-- /container -->
