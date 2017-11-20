@@ -134,7 +134,12 @@ div.vergoedBadge {
     height: 450px;
   }
 }
-@media (min-width:1020px) {
+@media (min-width: 1020px) and (max-width: 1139px) {
+  div.mensenquotes {
+    height: 375px;
+  }
+}
+@media (min-width:1140px) {
   div.mensenquotes {
     height: 300px;
   }
