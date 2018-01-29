@@ -2,7 +2,7 @@
 layout: post
 active: /inspiratie.html
 title: Hoe zorg je voor meer balans in je leven? 13 tips die je wilt weten.
-img: img/IMG_1742.JPG
+img: img/img_1742.jpg
 ---
 Balans vind je door er bewust mee bezig zijn. Als je er geen aandacht aan geeft, ben je snel door alle omstandigheden als vlaggetje in de wind aan het waaien en ga je alle kanten op. Alles begint met bij jezelf stil te staan en dagelijks bewust te ervaren hoe met je gaat. Ben je nog blij met je leven? Vind je dat alles gaat zoals jij het wilt, dat het klopt. Ben je oké met wat er is? Heb je genoeg energie, voel je je vitaal en vervuld? Dit zijn fundamentele vragen die je beantwoordt voordat je verder gaat. Want het is moeilijk om balans te hebben als er iets in de basis niet in orde is.
 
