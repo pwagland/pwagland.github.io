@@ -8,7 +8,7 @@
       <div class="indicates-required">Zie <a href="/privacyverklaring.html">privacyverklaring</a> voor hoe jouw gegevens zijn behandeld</div>
       <div class="indicates-required"><span class="asterisk">*</span> geeft verplicht veld aan</div>
       <div class="mc-field-group">
-        <label for="mce-EMAIL">Email <span class="asterisk">*</span></label>
+        <label for="mce-EMAIL">Email<span class="asterisk">*</span></label>
         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
       </div>
       <div class="mc-field-group">
@@ -19,15 +19,21 @@
         <label for="mce-LNAME">Achternaam</label>
         <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
       </div>
-      <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
+      <div class="mc-field-group input-group">
+        <span class="asterisk">*</span>
+        <ul>
+          <li><input required class="required" type="checkbox" value="1" name="group[14617][1]" id="mce-group[14617]-14617-0"><label for="mce-group[14617]-14617-0"> Ik geef toestemming om mijn e-mailadres te gebruiken om me de nieuwsbrief te sturen</label></li>
+        </ul>
+      </div>
+      <div class="gdpr-content">
+        <label id="gdpr-label h6">Toestemmingen</label>
+        <p id="gdpr-description">Massagetherapie Hilversum gebruikt de gegevens die u op dit formulier verstrekt om de nieuwsbrief te sturen. U kunt op elk moment van gedachten veranderen door op de link Abonnement opzeggen te klikken in de voettekst van elke email die u van ons ontvangt, of door contact met ons op te nemen via <a href="mailto:info@massagetherapie-hilversum.nl">info@massagetherapie-hilversum.nl</a>. We zullen uw gegevens met respect behandelen. Bezoek onze website voor meer informatie over onze <a href="/privacyverklaring.html">privacyverklaring</a>. Door hieronder te klikken, stemt u ermee in dat wij uw gegevens mogen verwerken in overeenstemming met deze voorwaarden.</p>
       </div>
       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_839d8f5d128a9c0fbc896df8c_deea6bf7f0" tabindex="-1" value=""></div>
-      <div class="gdpr-content">
-          <label id="gdpr-label h6">Toestemmingen</label>
-          <p id="gdpr-description">Massagetherapie Hilversum gebruikt de gegevens die u op dit formulier verstrekt om de nieuwsbrief te sturen. U kunt op elk moment van gedachten veranderen door op de link Abonnement opzeggen te klikken in de voettekst van elke email die u van ons ontvangt, of door contact met ons op te nemen via <a href="mailto:info@massagetherapie-hilversum.nl">info@massagetherapie-hilversum.nl</a>. We zullen uw gegevens met respect behandelen. Bezoek onze website voor meer informatie over onze <a href="/privacyverklaring.html">privacyverklaring</a>. Door hieronder te klikken, stemt u ermee in dat wij uw gegevens mogen verwerken in overeenstemming met deze voorwaarden.</p>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
       </div>
       <div class="clear"><input type="submit" value="Abonneren op lijst" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
