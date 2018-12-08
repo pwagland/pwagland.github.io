@@ -1,9 +1,15 @@
 timezone: Europe/Amsterdam
 plugins:
     - jekyll-seo-tag
+    - jekyll-sitemap
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+  -
+    scope:
+      path: "downloads/**/*"
+    values:
+      sitemap: false
