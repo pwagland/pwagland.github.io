@@ -125,6 +125,8 @@ div.tijdelijkGesloten {
     height: 200px;
     width: 200px;
     margin: -220px 0 20px 250px;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 @media (min-width: 992px) {
