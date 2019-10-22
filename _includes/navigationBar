@@ -8,10 +8,13 @@
                class="img-fluid">
         </div>
         <div class="col-9">
+          <div align="right">Massagepraktijk Hilversum is tijdelijk gesloten</div>
+          <!--
           <div class="contactBlock">
             <a href="tel:+31 6 1512 2994">Tel: 06&nbsp;1512&nbsp;2994</a>
             | <a href="mailto:info@massagetherapie-hilversum.nl">info@massagetherapie-hilversum.nl</a>
           </div>
+          -->
         </div>
       </div>
     </div>
